@@ -1484,7 +1484,7 @@ const deployedContracts = {
   },
   11155111: {
     XNFT: {
-      address: "0x8A40a42fce67582b45B6D19d35544341c6BC7714",
+      address: "0x442745893bf68a048696cB4C47B79Bf9f05FACe7",
       abi: [
         {
           inputs: [
@@ -2097,6 +2097,19 @@ const deployedContracts = {
         },
         {
           inputs: [],
+          name: "mint",
+          outputs: [],
+          stateMutability: "nonpayable",
+          type: "function",
+        },
+        {
+          inputs: [
+            {
+              internalType: "string",
+              name: "uri",
+              type: "string",
+            },
+          ],
           name: "mint",
           outputs: [],
           stateMutability: "nonpayable",

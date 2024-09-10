@@ -19,7 +19,7 @@ async function main() {
     const wallet = new Wallet(privateKey);
     const signer = wallet.connect(provider);
 
-    const xNftAddressArbitrumSepolia = `0x7a55A7aF12E86DAdE3173656F5c3A23808D2889f`;
+    const xNftAddressArbitrumSepolia = `0x41C6D1c02006B86689DC975c1F17e859ad5a19Cc`;
 
     const from = `0xd5fB4bfD1Fa5d2Ea0c22cc30713033738bE05291`;
     const to = `0xd5fB4bfD1Fa5d2Ea0c22cc30713033738bE05291`;
